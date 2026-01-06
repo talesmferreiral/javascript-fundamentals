@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Sistemas de Nacionalidade</h1>
+    <p>Onde você nasceu?</p>
+    <input type="text" name="lugar" id="lugar">
+    <p><input type="button" value="Verificar" onclick="verificar()"></p>
+    <div id="res"></div>
+</body>
+<script>
+    document.getElementById("lugar").addEventListener("input", function() {
+    this.value = this.value.replace(/[0-9]/g, ""); // Remove números
+    });
+    function verificar() {
+        var lugar = document.getElementById('lugar').value
+        var res = document.getElementById('res')
+        const normalizado = lugar
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
+if (["brasil", "brasileiro"].includes(normalizado)) {
+    res.innerHTML = `Você é <strong>BRASILEIRO</strong>!`;
+} else {
+    res.innerHTML = `Você <strong>NÃO</strong> é <strong>BRASILEIRO</strong>!`;
+}
+    }
+</script>
+</html>
