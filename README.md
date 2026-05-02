@@ -6,6 +6,7 @@
 ![Status](https://img.shields.io/badge/status-em%20andamento-green?style=flat)
 
 > 🇧🇷 Exercícios e projetos desenvolvidos durante meu aprendizado em JavaScript.
+
 > 🇺🇸 Exercises and projects developed during my JavaScript learning journey.
 
 ---
