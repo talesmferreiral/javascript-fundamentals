@@ -69,6 +69,19 @@ Duas aplicações: um contador configurável com início, fim e passo; e um gera
 
 ---
 
+## 🧩 Exercícios de Funções (`16-functions`)
+
+| Arquivo | Conceito |
+|---------|----------|
+| `function01.js` | Função declarada com `if/else` (par ou ímpar) |
+| `function02.js` | Parâmetros padrão (*default parameters*) |
+| `function03.js` | Função expressa (*function expression*) |
+| `function04.js` | Fatorial com laço `for` |
+| `function05.js` | Fatorial com recursividade |
+| `vetornatela.js` | Iteração de vetor com `for...in` |
+
+---
+
 ## 📚 Tecnologias utilizadas
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -133,6 +146,19 @@ App that detects the current time and displays a personalized greeting with a dy
 
 **🔢 Super Counter + Multiplication Table** (`14-exercise-counter-table`)
 Two apps: a configurable counter with start, end, and step values; and an interactive multiplication table generator.
+
+---
+
+## 🧩 Function Exercises (`16-functions`)
+
+| File | Concept |
+|------|---------|
+| `function01.js` | Declared function with `if/else` (even or odd checker) |
+| `function02.js` | Default parameters |
+| `function03.js` | Function expression |
+| `function04.js` | Factorial using a `for` loop |
+| `function05.js` | Factorial using recursion |
+| `vetornatela.js` | Array iteration with `for...in` |
 
 ---
 
